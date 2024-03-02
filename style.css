@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-block {
+    background: url("images/background.jpg");
+    height: 725px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-family: Montserrat;
+    font-size: 79px;
+    font-weight: 500;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-subtitle {
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-button {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: white;
+    padding: 26px 22px;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 181px;
+}
+
+.section-title-text {
+    font-family: Montserrat;
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.person-info-section {
+    max-width: 1380px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 97px;
+    margin: 51px 20px 0;
+}
+
+.person-text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.person-info-text {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-block {
+    background-color: #1E2E3D;
+    height: 503px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.footer-text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+@media screen and (max-width: 975px) {
+ .person-info-section {
+    flex-direction: column;
+ }   
+}
+
+@media screen and (max-width: 670px) {
+    .main-title {
+        font-size: 50px;
+    }
+    
+}
